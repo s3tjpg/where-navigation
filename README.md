@@ -4,7 +4,7 @@
 [![BeamMP](https://img.shields.io/badge/BeamMP-Multiplayer-blue.svg)](https://beammp.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-A navigation companion, speed camera radar, and multiplayer synchronization mod built natively for **BeamNG.drive** and **BeamMP**.
+An authentic **W*ze-style** navigation companion, speed camera radar, and multiplayer synchronization mod built natively for **BeamNG.drive** and **BeamMP**.
 
 ---
 
@@ -27,7 +27,8 @@ Resources/
 
 ## ✨ Features
 
-### 🗺️ Real-Time Vector Navigation & Radar HUD (`whereNavigation`)
+### 🗺️ Real-Time W*ze-Style Navigation & Radar HUD (`whereNavigation`)
+* **W*ze-Inspired Experience**: Clean vector cartography, live police alerts, speed cameras, dynamic road speeds, and user hazard reporting.
 * **Live Multiplayer Radar**: Displays surrounding BeamMP players as active vehicle blips with live speed readouts and compass headings.
 * **Vector Cartography**: High-contrast, clean vector roads rendered dynamically with smooth turn-by-turn routing and ETA.
 * **Speed Cameras & Radar Detection**: Real-time road corridor scanning for speed enforcement cameras with stroboscopic optical flash alerts when speeding.
