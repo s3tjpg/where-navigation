@@ -8,6 +8,23 @@ A navigation companion, speed camera radar, and multiplayer synchronization mod 
 
 ---
 
+## 📦 All-In-One Package Structure
+
+The release is packaged as a single archive that extracts directly into your BeamMP server:
+
+```text
+Resources/
+  ├── Client/
+  │   └── where_navigation.zip   (Auto-downloaded by joining players)
+  ├── Server/
+  │   └── whereSync/
+  │       ├── main.lua           (Syncs live radar, speed cameras & hazards)
+  │       └── info.json
+  └── README_SERVER_SETUP.txt
+```
+
+---
+
 ## ✨ Features
 
 ### 🗺️ Real-Time Vector Navigation & Radar HUD (`whereNavigation`)
@@ -32,27 +49,24 @@ A navigation companion, speed camera radar, and multiplayer synchronization mod 
 
 ## 📥 Installation
 
-### For Players (Client)
-1. Download **[`Where_Navigation_BeamMP_Edition.zip`](releases/Where_Navigation_BeamMP_Edition.zip)** from the [Releases](releases/) page.
-2. Drop `Where_Navigation_BeamMP_Edition.zip` into your BeamNG mods folder:
-   ```text
-   %LocalAppData%\BeamNG.drive\<version>\mods\
-   ```
-3. In-game, open **UI Apps** (pencil icon), click **Add App**, and add:
-   * **`Where Navigation & Radar`**
-   * **`Where GPS Speedometer`**
-
-### For BeamMP Server Hosts
-1. Download **[`whereSync_Server_Plugin.zip`](releases/whereSync_Server_Plugin.zip)**.
+### 🚀 For BeamMP Server Hosts
+1. Download **[`Where_Navigation_BeamMP_Edition.zip`](https://github.com/s3tjpg/where-navigation/releases/latest/download/Where_Navigation_BeamMP_Edition.zip)** from the [Releases](https://github.com/s3tjpg/where-navigation/releases) page.
 2. Extract the `Resources` folder directly into your BeamMP Server root directory (where `BeamMPServer.exe` is located).
 3. Ensure server plugins are enabled in your `ServerConfig.toml`:
    ```toml
    ServerPlugins = true
    ```
-4. Place `Where_Navigation_BeamMP_Edition.zip` in `<Server_Root>/Resources/Client/` so connecting players automatically download it.
-5. Start your BeamMP Server! You will see:
+4. Start your BeamMP Server! You will see:
    ```text
    === [whereSync] Where Multiplayer Sync Plugin Loaded ===
+   ```
+
+### 🎮 For Single Players / Direct Installation
+1. Download **[`Where_Navigation_BeamMP_Edition.zip`](https://github.com/s3tjpg/where-navigation/releases/latest/download/Where_Navigation_BeamMP_Edition.zip)**.
+2. Open the zip and take `where_navigation.zip` from inside `Resources/Client/`.
+3. Drop `where_navigation.zip` into your BeamNG mods folder:
+   ```text
+   %LocalAppData%\BeamNG.drive\<version>\mods\
    ```
 
 ---
