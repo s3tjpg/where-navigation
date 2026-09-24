@@ -60,14 +60,7 @@ Resources/
    ```text
    === [whereSync] Where Multiplayer Sync Plugin Loaded ===
    ```
-
-### 🎮 For Single Players / Direct Installation
-1. Download **[`Where_Navigation_BeamMP_Edition.zip`](https://github.com/s3tjpg/where-navigation/releases/latest/download/Where_Navigation_BeamMP_Edition.zip)**.
-2. Open the zip and take `where_navigation.zip` from inside `Resources/Client/`.
-3. Drop `where_navigation.zip` into your BeamNG mods folder:
-   ```text
-   %LocalAppData%\BeamNG.drive\<version>\mods\
-   ```
+*(Joining players will automatically receive the client mod from the server!)*
 
 ---
 
